@@ -1,5 +1,5 @@
 {
-	"file": "https://github.com/beralves/upset/blob/master/titanic.csv",
+	"file": "https://raw.githubusercontent.com/beralves/upset/master/titanic.csv",
 	"name": "Titanic",
 	"header": 0,
 	"separator": ",",
