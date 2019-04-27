@@ -1,0 +1,28 @@
+{
+	"file": "https://github.com/beralves/upset/blob/master/titanic.csv",
+	"name": "Titanic",
+	"header": 0,
+	"separator": ",",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Name" },
+		{ "type": "integer", "index": 1, "name": "Male" },
+		{ "type": "integer", "index": 2, "name": "Survived" },
+		{ "type": "integer", "index": 3, "name": "1st Class" },
+		{ "type": "integer", "index": 4, "name": "2nd Class" },
+		{ "type": "integer", "index": 5, "name": "3rd Class" },
+		{ "type": "integer", "index": 6, "name": "Aged 0 to 10" },
+		{ "type": "integer", "index": 7, "name": "Aged 11 to 20" },
+		{ "type": "integer", "index": 8, "name": "Aged 21 to 30" },
+		{ "type": "integer", "index": 9, "name": "Aged 31 to 40" },
+		{ "type": "integer", "index": 10, "name": "Aged 41 to 50" },
+		{ "type": "integer", "index": 11, "name": "Aged 51 to 60" },
+		{ "type": "integer", "index": 12, "name": "Aged 61 to 70" },
+		{ "type": "integer", "index": 13, "name": "Aged 71 to 80" },
+		{ "type": "integer", "index": 14, "name": "Siblings/Spouses Aboard" },
+		{ "type": "integer", "index": 15, "name": "Parents/Children Aboard" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 15 }
+	]
+}
