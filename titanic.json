@@ -13,6 +13,6 @@
 		{ "type": "integer", "index": 5, "name": "3rd Class" }
 	],
 	"sets": [
-		{ "format": "binary", "start": 2, "end": 5 }
+		{ "format": "binary", "start": 0, "end": 5 }
 	]
 }
