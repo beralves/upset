@@ -1,0 +1,20 @@
+{
+	"file": "https://raw.githubusercontent.com/beralves/upset/master/titanic_processed.csv",
+	"name": "Titanic",
+	"header": 0,
+	"separator": ",",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 2, "name": "Name" },
+		{ "type": "string", "index": 3, "name": "Sex" },
+		{ "type": "float", "index": 4, "name": "Age" },
+		{ "type": "integer", "index": 5, "name": "Survived" },
+		{ "type": "integer", "index": 6, "name": "Pclass" },
+		{ "type": "integer", "index": 7, "name": "Siblings/Spouses Aboard" },
+		{ "type": "integer", "index": 8, "name": "Parents/Children Aboard" },
+		{ "type": "float", "index": 9, "name": "Fare" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 10, "end": 16 }
+	]
+}
